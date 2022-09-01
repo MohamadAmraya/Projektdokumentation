@@ -4,7 +4,7 @@ Amraya
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 01.09 | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie h |
+| 01.09 | 0.0.1   | Geplant, was wir machen sollen.                              |
 |       | ...     |                                                              |
 |       | 1.0.0   |                                                              |
 
