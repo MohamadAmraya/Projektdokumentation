@@ -5,7 +5,7 @@ Amraya
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
 | 01.09 | 0.0.1   | Ich habe den Randomiser programmiert.                        |
-| 08.09 | 0.0.2   |                                                              |
+| 08.09 | 0.0.2   | Ich habe das System programmiert(erneut spielen können, falsch und richtig zeigen)|
 | 15.09 | 0.0.3   |                                                              |
 
 ## 1 Informieren
@@ -30,7 +30,9 @@ Ein MatheQuiz, mit neuen zufälligen Zahlen jedes Mal.
 | 1.1  | Visual studio | gibt eine Zahl ein.| zeigt entweder richtig oder falsch. |
 | 1.2  |  Visual studio  | versucht die richtige lösung einzugeben.| zeigt dass die eingegebene Zahl ist richtig. |
 | 1.3  |  Visual studio  | versucht eine falsche lösung einzugeben.|zeigt dass die eingegenbene Zahl ist falsch. |
-| 1.4  |             |         |                  |
+| 1.4  | Visual Studio | versucht eine falsche lösung , dann y drücken | das Quiz fängt vom Strat nocheinmal an.|
+| 1.5 | Visual Studio | versucht eine richtige lösung, dann n drücken | zeit dass er nicht schlau ist und kann nicht mehr tippen.|
+| 1.6 | Visual Studio | versucht eine richtige oder falsche lösung einzugeben, dann irgend einen Buchstabe eingeben(ausserdem n,y)| zeigt was eingegeben wird und macht nichts, bis y oder n eingegeben sind |
 
 ## 2 Planen
 
@@ -39,7 +41,9 @@ Ein MatheQuiz, mit neuen zufälligen Zahlen jedes Mal.
 | 1.A  | 29.09 |Mohamad| programmieren den Randomiser. | 45 minuten  |
 | 1.B | 29.09 | Mohamad | Programmieren und erstellen das Layout.    | 45 minuten  |
 | 1.C | 29.09 |Mohamad  | Programmieren den Rechner, damit es richtig rechnen kann.| 45 minuten  |
-| 1.D | 29.09 | Mohamad |                        | 45 minuten |      
+| 1.D | 29.09 | Mohamad | programmieren , was es gezeigt wird, wenn es falsch oder richtig ist. | 30 minuten |      
+| 1.E|  29.09 | Mohamad |Programmieren die Möglichkeit erneut spielen zu können. | 45 minuten |
+
 
 ## 3 Entscheiden
 
@@ -49,10 +53,9 @@ Wir haben uns entschieden, das Quiz mit C# zu programmieren. Wir machen den "Ran
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
+| 1.A  | 08.09  |Mohamad  | 150 minuten   |  150 minuten       |
 | ...  |       |           |               |                   |
 
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
 ## 5 Kontrollieren
 
