@@ -4,9 +4,9 @@ Amraya
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 01.09 | 0.0.1   | Geplant, was wir machen sollen.                              |
-|       | ...     |                                                              |
-|       | 1.0.0   |                                                              |
+| 01.09 | 0.0.1   | Ich habe den Randomiser programmiert.                        |
+| 08.09 | 0.0.2   |                                                              |
+| 15.09 | 0.0.3   |                                                              |
 
 ## 1 Informieren
 
@@ -18,22 +18,28 @@ Ein MatheQuiz, mit neuen zufälligen Zahlen jedes Mal.
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    | Muss          |Funktional| Als Informatiker möchte ich neue Zahlen regelmässig geniert werden machen, damit den Benutzer nicht immer die gleiche Aufgaben hat.|
-| ...  |                 |      |                                    |
+| 1 | Muss      |Funktional| Als ein Spieler, möchte ich ein Zahl eingebe, damit ich gewinnen kann.|
+|2  | Muss      |Funktional|Als ein Spieler, möchte ich ein Restart Button zu haben, damit ich erneut spielen kann. |
+|3  |Muss     |Qualität| Als ein Spieler, möchte ich die richtige Lösung sehen, damit ich von meinen Fehlern lernen kann.| 
+|   |            |           |      |                                    |
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  |Computer mit tiefen Anforderungen.| Der Tester gibt die richtige lösung ein.|  das Programm zeigt ob es richtig oder falsch ist.|
-| ...  |              |         |                   |
+| 1.1  | Visual studio | gibt eine Zahl ein.| zeigt entweder richtig oder falsch. |
+| 1.2  |  Visual studio  | versucht die richtige lösung einzugeben.| zeigt dass die eingegebene Zahl ist richtig. |
+| 1.3  |  Visual studio  | versucht eine falsche lösung einzugeben.|zeigt dass die eingegenbene Zahl ist falsch. |
+| 1.4  |             |         |                  |
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |eine Woche |MOhamad| programmiert die erste schritte.| 12 |
-| ...  |       |           |              |               |
+| 1.A  | 29.09 |Mohamad| programmieren den Randomiser. | 45 minuten  |
+| 1.B | 29.09 | Mohamad | Programmieren und erstellen das Layout.    | 45 minuten  |
+| 1.C | 29.09 |Mohamad  | Programmieren den Rechner, damit es richtig rechnen kann.| 45 minuten  |
+| 1.D | 29.09 | Mohamad |                        | 45 minuten |      
 
 ## 3 Entscheiden
 
