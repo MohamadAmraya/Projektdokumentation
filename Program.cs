@@ -1,4 +1,4 @@
-﻿using System.Runtime.CompilerServices;
+using System.Runtime.CompilerServices;
 
 namespace Mathe_Quiz
 {
@@ -27,7 +27,7 @@ namespace Mathe_Quiz
             if (Console.ReadLine() == result)
             {
 
-                Console.WriteLine("GoodjOB");
+                Console.WriteLine("Correct...but can you get anouther one???");
             }
             else Console.WriteLine($"Wrong! The correct answer was: {result}");
 
@@ -36,18 +36,20 @@ namespace Mathe_Quiz
             Console.WriteLine("Wanna Play Again [y/n]?");
             while (!yPressed)
             {
-
-                string input = Console.ReadKey().KeyChar.ToString();
-
-                yPressed = input == "y";
-
+                
                 
 
+                    string input = Console.ReadKey().KeyChar.ToString();
+
+                    yPressed = input == "y";
+
+
                 Console.WriteLine();
-                if (input == "n")
-                {
-                    pTextLine(ConsoleColor.Red, "MOIOOO");
-                    break;
+                    if (input == "n")
+                    {
+                        pTextLine(ConsoleColor.Red, "I knew you´re bad");
+                        break;
+                  
                 }
 
             }
