@@ -27,11 +27,11 @@ Ein MatheQuiz, mit neuen zufälligen Zahlen jedes Mal.
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Visual studio | gibt eine Zahl ein.| zeigt entweder richtig oder falsch. |
-| 1.2  |  Visual studio  | versucht die richtige lösung einzugeben.| zeigt dass die eingegebene Zahl ist richtig. |
-| 1.3  |  Visual studio  | versucht eine falsche lösung einzugeben.|zeigt dass die eingegenbene Zahl ist falsch. |
-| 1.4  | Visual Studio | versucht eine falsche lösung , dann y drücken | das Quiz fängt vom Strat nocheinmal an.|
-| 1.5 | Visual Studio | versucht eine richtige lösung, dann n drücken | zeigt dass er nicht schlau ist und kann nicht mehr tippen.|
+| 1.1  | Muss eine Gleichung geben | gibt eine Zahl ein.| zeigt entweder richtig oder falsch. |
+| 1.2  | Muss eine Gleichung geben | versucht die richtige lösung einzugeben.| zeigt dass die eingegebene Zahl ist richtig. |
+| 1.3  |  Muss eine Gleichung geben  | versucht eine falsche lösung einzugeben.|zeigt dass die eingegenbene Zahl ist falsch. |
+| 1.4  | Muss eine Gleichung geben und eine Frage danach, ob man wieder spielen will  | versucht eine falsche lösung , dann y drücken | das Quiz fängt vom Strat nocheinmal an.|
+| 1.5 | Muss eine Gleichung geben und eine Frage danach, ob man wieder spielen will | versucht eine richtige lösung, dann n drücken | zeigt dass er nicht schlau ist und kann nicht mehr tippen.|
 
 
 ## 2 Planen
@@ -46,8 +46,6 @@ Ein MatheQuiz, mit neuen zufälligen Zahlen jedes Mal.
 
 
 ## 3 Entscheiden
-
-Wir haben uns entschieden, das Quiz mit C# zu programmieren. Wir machen den "Randomiser" und den Rand als erste Schritte.
 
 ## 4 Realisieren
 
@@ -68,12 +66,13 @@ Wir haben uns entschieden, das Quiz mit C# zu programmieren. Wir machen den "Ran
 | 1.4  |  22.09   | das Quiz fängt vom Strat nocheinmal an.      |              Mohamad  |
 | 1.5  |  22.09   |  zeit dass er nicht schlau ist und kann nicht mehr tippen        |           Mohamad  |
 
+Alles läuft super.
 
 ### 5.2 Exploratives Testen
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    | Visual Studio | Buchstaben statt Zahlen, wo wir auf die Summe schreiben sollen | ERROR |  keine Änderungen bis wir ENTER drucken |
+| I    | Muss eine Gleichung geben| Buchstaben statt Zahlen, wo wir auf die Summe schreiben sollen | ERROR |  keine Änderungen bis wir ENTER drucken |
 |   |              |         |                   |                      |
 
 ## 6 Auswerten
