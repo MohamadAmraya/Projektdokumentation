@@ -77,4 +77,4 @@ Alles läuft super.
 
 ## 6 Auswerten
 
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
+https://github.com/MohamadAmraya/Projektdokumentation/blob/main/LernBericht.md
