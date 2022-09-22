@@ -64,7 +64,7 @@ Wir haben uns entschieden, das Quiz mit C# zu programmieren. Wir machen den "Ran
 | ---- | ----- | -------- | ------ |
 | 1.1  | 22.09    |  zeigt entweder richtig oder falsch          |Mohamad         |
 | 1.2   |  22.09   |  zeigt dass die eingegebene Zahl ist richtig.       |Mohamad 
-| 1.3  |  22.09   |      zeigt dass die eingegenbene Zahl ist falsch.     |     Mohamd      |
+| 1.3  |  22.09   |      zeigt dass die eingegenbene Zahl ist falsch.     |     Mohamad      |
 | 1.4  |  22.09   | das Quiz fängt vom Strat nocheinmal an.      |              Mohamad  |
 | 1.5  |  22.09   |  zeit dass er nicht schlau ist und kann nicht mehr tippen        |           Mohamad  |
 
