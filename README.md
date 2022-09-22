@@ -6,7 +6,7 @@ Amraya
 | ----- | ------- | ------------------------------------------------------------ |
 | 01.09 | 0.0.1   | Ich habe den Randomiser programmiert.                        |
 | 08.09 | 0.0.2   | Ich habe das System programmiert(erneut spielen können, falsch und richtig zeigen)|
-| 15.09 | 0.0.3   |                                                              |
+| 15.09 | 0.0.3   | Ich habe alles schön gemacht(Layout, Farben)       |
 
 ## 1 Informieren
 
@@ -31,8 +31,8 @@ Ein MatheQuiz, mit neuen zufälligen Zahlen jedes Mal.
 | 1.2  |  Visual studio  | versucht die richtige lösung einzugeben.| zeigt dass die eingegebene Zahl ist richtig. |
 | 1.3  |  Visual studio  | versucht eine falsche lösung einzugeben.|zeigt dass die eingegenbene Zahl ist falsch. |
 | 1.4  | Visual Studio | versucht eine falsche lösung , dann y drücken | das Quiz fängt vom Strat nocheinmal an.|
-| 1.5 | Visual Studio | versucht eine richtige lösung, dann n drücken | zeit dass er nicht schlau ist und kann nicht mehr tippen.|
-| 1.6 | Visual Studio | versucht eine richtige oder falsche lösung einzugeben, dann irgend einen Buchstabe eingeben(ausserdem n,y)| zeigt was eingegeben wird und macht nichts, bis y oder n eingegeben sind |
+| 1.5 | Visual Studio | versucht eine richtige lösung, dann n drücken | zeigt dass er nicht schlau ist und kann nicht mehr tippen.|
+
 
 ## 2 Planen
 
@@ -56,26 +56,25 @@ Wir haben uns entschieden, das Quiz mit C# zu programmieren. Wir machen den "Ran
 | 1.A  | 08.09  |Mohamad  | 150 minuten   |  150 minuten       |
 | ...  |       |           |               |                   |
 
-
 ## 5 Kontrollieren
 
 ### 5.1 Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 22.09    |  zeigt entweder richtig oder falsch          |Mohamad         |
+| 1.2   |  22.09   |  zeigt dass die eingegebene Zahl ist richtig.       |Mohamad 
+| 1.3  |  22.09   |      zeigt dass die eingegenbene Zahl ist falsch.     |     Mohamd      |
+| 1.4  |  22.09   | das Quiz fängt vom Strat nocheinmal an.      |              Mohamad  |
+| 1.5  |  22.09   |  zeit dass er nicht schlau ist und kann nicht mehr tippen        |           Mohamad  |
 
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
 
 ### 5.2 Exploratives Testen
 
 | BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
 | ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
+| I    | Visual Studio | Buchstaben statt Zahlen, wo wir auf die Summe schreiben sollen | ERROR |  keine Änderungen bis wir ENTER drucken |
+|   |              |         |                   |                      |
 
 ## 6 Auswerten
 
