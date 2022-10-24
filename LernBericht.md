@@ -35,4 +35,4 @@ Ergebniss Bild: Das Bild zeigt, was ich erhalten kann, wenn ich das Programm dur
 
 👎 Ich musste einige Sachen nachholen, da es Termine und missverständnisse gab.
 
-**VBV**: Ich schlage vor, dass ich mich mehr nicht nur über schule mehr informieren lassen, sondern auch über neue ProgramierTechniken.
+**VBV**: Ich schlage vor, dass ich mich nicht nur über schule mehr informieren lassen, sondern auch über neue ProgramierTechniken.
